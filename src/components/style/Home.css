@@ -1,0 +1,201 @@
+.container {
+  position: relative;
+}
+.banner,
+.demands {
+  min-width: 90%;
+  max-width: 90%;
+  margin: 0 auto;
+  display: flex;
+}
+.gallery {
+  min-width: 85%;
+  max-width: 85%;
+  margin: 0 auto;
+  display: flex;
+}
+
+.help {
+  display: flex;
+  background-color: #fbe8e1;
+}
+.help span {
+  background-color: #fbe8e1;
+}
+.help span h6 {
+  background-color: #fbe8e1;
+  width: 60%;
+  font-size: 40px;
+  font-weight: 400;
+  margin: 0;
+  padding: 23% 0% 1% 10%;
+}
+
+.help span p {
+  background-color: #fbe8e1;
+  width: 60%;
+  font-size: 20px;
+  font-weight: 500;
+  margin: 0;
+  padding: 23% 0% 1% 10%;
+}
+.help span h1 {
+  background-color: #fbe8e1;
+  width: 70%;
+  margin: 0;
+  padding: 0% 0% 0% 10%;
+}
+
+.pinner {
+  position: absolute;
+  transform: translate(-80%, -155%);
+}
+
+.pinner1 {
+  position: absolute; /* Positions content on top of the image */
+
+  transform: translate(-80%, -113%); /* Centers content within container */
+}
+
+.demands {
+  background-color: #1d4482;
+  margin-top: 40px;
+  border: 2px solid #707070;
+}
+.global-img {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(40%, 1fr));
+  grid-gap: 30px;
+  margin-top: 40px;
+}
+.global-img div img {
+  max-width: 100%;
+  min-width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.demands h1,
+.demands p {
+  background-color: #1d4482;
+  color: #ffffff;
+  padding-left: 30px;
+}
+
+.demands p {
+  width: 50%;
+  padding-top: 25px;
+  font-size: 14px;
+}
+.gallery h1 {
+  font-size: 50px;
+  margin: 40px 0px 0px 0px;
+}
+
+.gallery h3 {
+  margin: 0;
+  font-weight: 500;
+}
+
+.global h1 {
+  font-size: 37px;
+  margin: 40px 0px 0px 0px;
+}
+
+.global h3 {
+  margin: 0;
+  font-weight: 500;
+}
+.virtual-gallery {
+  padding-top: 30px;
+  display: flex;
+  gap: 2%;
+  width: 100%;
+}
+.gallery {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.virtual {
+  width: 100%;
+}
+
+.curators-img {
+  display: flex;
+  gap: 3%;
+  margin-top: 20px;
+}
+
+.curators-img div,
+.curators-img div img {
+  width: 100%;
+}
+
+.curators-details p,
+.curators-details h5 {
+  margin: 0;
+}
+
+.curators-details h5 {
+  margin-top: 10px;
+  font-size: larger;
+}
+
+.curators-details p {
+  font-size: medium;
+  font-weight: 500;
+}
+
+.offer {
+  margin-top: 40px;
+  height: 80%;
+}
+
+.art {
+  color: #020627;
+}
+
+.artist {
+  display: flex;
+  gap: 20px;
+  margin-top: 40px;
+}
+
+.artist-details,
+.artist-details p {
+  text-align: center;
+  color: #020627;
+}
+
+.subscribe {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  background-color: #ffe600;
+  height: 250px;
+  margin-top: 100px;
+}
+.sign-up {
+  position: absolute;
+  margin-left: 96.2%;
+  color: #4a4444;
+  font-size: 14px;
+  padding-top: 100px;
+}
+.subscribe img,
+.subscribe span,
+.subscribe p,
+.subscribe h2 {
+  background-color: transparent;
+}
+.subscribe span {
+  margin: 6% 0% 0% 35%;
+}
+.elephant {
+  position: absolute;
+  transform: translate(0%, -15%);
+  height: 350px;
+}
